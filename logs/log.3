@@ -1,0 +1,11 @@
+{"level":30,"time":1719199644572,"pid":15747,"hostname":"DESKTOP-ZZ4F02","module":"system","params":{"name":"b5","email":"b6"},"msg":"进入创建用户"}
+{"level":30,"time":1719199644589,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[]","Query":"SELECT 1","msg":"耗时: 1ms"}
+{"level":30,"time":1719199644598,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[\"b5\",\"b6\"]","Query":"INSERT INTO `main`.`User` (`name`, `email`) VALUES (?,?) RETURNING `id` AS `id`, `name` AS `name`, `email` AS `email`","msg":"耗时: 4ms"}
+{"level":30,"time":1719199644599,"pid":15747,"hostname":"DESKTOP-ZZ4F02","module":"system","msg":"退出创建用户"}
+{"level":30,"time":1719199644623,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[-1,0]","Query":"SELECT COUNT(*) FROM (SELECT `main`.`User`.`id` FROM `main`.`User` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`","msg":"耗时: 0ms"}
+{"level":30,"time":1719199644624,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[10,0]","Query":"SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email` FROM `main`.`User` WHERE 1=1 ORDER BY `main`.`User`.`id` ASC LIMIT ? OFFSET ?","msg":"耗时: 0ms"}
+{"level":30,"time":1719200102345,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[]","Query":"SELECT 1","msg":"耗时: 0ms"}
+{"level":30,"time":1719200102346,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[-1,0]","Query":"SELECT COUNT(*) FROM (SELECT `main`.`User`.`id` FROM `main`.`User` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`","msg":"耗时: 0ms"}
+{"level":30,"time":1719200102350,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[10,0]","Query":"SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email` FROM `main`.`User` WHERE 1=1 ORDER BY `main`.`User`.`id` ASC LIMIT ? OFFSET ?","msg":"耗时: 0ms"}
+{"level":30,"time":1719200106581,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[-1,0]","Query":"SELECT COUNT(*) FROM (SELECT `main`.`User`.`id` FROM `main`.`User` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`","msg":"耗时: 0ms"}
+{"level":30,"time":1719200106581,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[10,0]","Query":"SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email` FROM `main`.`User` WHERE 1=1 ORDER BY `main`.`User`.`id` ASC LIMIT ? OFFSET ?","msg":"耗时: 0ms"}

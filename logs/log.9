@@ -1,0 +1,8 @@
+{"level":30,"time":1719222254632,"pid":15747,"hostname":"DESKTOP-ZZ4F02","module":"system","params":{"name":"gg1","email":"gg1"},"msg":"进入创建用户"}
+{"level":30,"time":1719222254662,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[]","Query":"SELECT 1","msg":"耗时: 2ms"}
+{"level":30,"time":1719222254672,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[\"gg1\",\"gg1\"]","Query":"INSERT INTO `main`.`User` (`name`, `email`) VALUES (?,?) RETURNING `id` AS `id`, `name` AS `name`, `email` AS `email`","msg":"耗时: 4ms"}
+{"level":30,"time":1719222254674,"pid":15747,"hostname":"DESKTOP-ZZ4F02","module":"system","msg":"退出创建用户"}
+{"level":30,"time":1719222254748,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[-1,0]","Query":"SELECT COUNT(*) FROM (SELECT `main`.`User`.`id` FROM `main`.`User` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`","msg":"耗时: 0ms"}
+{"level":30,"time":1719222254750,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[10,0]","Query":"SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email` FROM `main`.`User` WHERE 1=1 ORDER BY `main`.`User`.`id` ASC LIMIT ? OFFSET ?","msg":"耗时: 0ms"}
+{"level":30,"time":1719222256726,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[-1,0]","Query":"SELECT COUNT(*) FROM (SELECT `main`.`User`.`id` FROM `main`.`User` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`","msg":"耗时: 0ms"}
+{"level":30,"time":1719222256727,"pid":15747,"hostname":"DESKTOP-ZZ4F02","Parmas":"[10,20]","Query":"SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email` FROM `main`.`User` WHERE 1=1 ORDER BY `main`.`User`.`id` ASC LIMIT ? OFFSET ?","msg":"耗时: 0ms"}
